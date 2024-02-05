@@ -1,0 +1,32 @@
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+/* Header */
+
+	#header {
+		width: 15em;
+	}
+
+		#header > header {
+			padding: 1.5em;
+		}
+
+		#header > footer {
+			padding: 1em;
+		}
+
+/* Wrapper */
+
+	#wrapper {
+		padding-left: 15em;
+	}
+
+/* Main */
+
+	#main > section > .container {
+		padding: 4em 0 2em 0;
+	}
