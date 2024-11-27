@@ -30,68 +30,18 @@
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 
     <style>
-/*
-        #this_wrapper {
-            padding-left: 0 !important; 
-            margin: 0 auto !important;
-            display: flex; 
-            justify-content: center;
-            align-items: center;
-            box-sizing: border-box;
-        }
-
-        .container {
-            margin: 0 auto !important;
-            padding-left: 0 !important;
-        }
-
-        section {
+        .table-container {
             width: 100%;
-            max-width: 1500px;
-            margin: 0 10px;
-            box-sizing: border-box;
+            max-width: 1500px; 
+            margin: 0 auto; 
+            overflow: auto;
         }
-
-*/
 
         table {
             width: 1500px;
             border-collapse: collapse;
             table-layout: fixed;
         }
-
-        .this_wrapper {
-            display: flex;
-        }
-
-
-/*
-        #this_wrapper {
-            padding-left: 0 !important;
-        }
-
-        .container {
-            margin: 0 auto !important;
-            padding-left: 0 !important;
-            max-width: 1200px;
-            text-align: center;
-        }
-
-        #submit {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            height: auto; 
-        }
-
-        table {
-            margin: 0 auto !important;
-            width: auto !important;
-            border-collapse: collapse;
-        }
-*/
-
 
         th {
             border: 2px solid #000;
@@ -137,15 +87,13 @@
 </head>
 
 <body>
-    <div id="this_wrapper">
+    <div>
         <!-- Header -->
 
         <!--Main-->
 
         <section id="submit">
-            <div class="container" style="margin: 300px auto; padding-left: 0 ;">
-            <!--<div class="container" style=" padding-left: 300px; margin: 20px;"></div>-->
-
+            <div class="table-container">
                 <header class="major">
                     <br>
                     <h2>Developing Schedule</h2>
