@@ -32,15 +32,15 @@
     <style>
         .table-container {
             width: 100%;
-            max-width: 1500px; 
+            max-width: 100%;
             margin: 0 auto; 
             overflow: auto;
         }
 
         table {
-            width: 1500px;
+            width: 100%;
             border-collapse: collapse;
-            table-layout: fixed;
+            table-layout: auto;
         }
 
         th {
@@ -83,6 +83,19 @@
         .panel {
             background-color: #ea94f9;
         }
+
+        @media (max-width: 768px) {
+            table {
+                font-size: 12px; /* Reduce font size on small screens */
+            }
+
+            th, td {
+                padding: 3px; /* Reduce padding on small screens */
+            }
+        }
+
+
+
     </style>
 </head>
 
