@@ -30,6 +30,24 @@
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 
     <style>
+
+        .grow img {
+            transition: 1s ease;
+        }
+
+        .grow img:hover {
+            -webkit-transform: scale(2);
+            -ms-transform: scale(2);
+            transform: scale(2);
+            transition: 1s ease;
+        }
+
+        .image-caption {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
         .table-container {
             width: 1500px;
             /* max-width: 1500px;  */
@@ -98,24 +116,62 @@
                 <div class="table-container">
                     <header class="major">
                         <br>
-                        <h2>Developing Schedule</h2>
+                        <h2 style="font-size: 40px;">Developing Schedule</h2>
                     </header>
 
+                    <br>
 
                     <h3>Registration</h3>
-                    <b>Location</b> : Regency Foyer<br><br>
-                    <b>Time</b> :
-                    <br> Saturday, Dec. 14 14:30-18:00 <br>
-                    Sunday, Dec. 15 7:30-17:00 <br>
-                    Monday, Dec. 16 8:00-17:00 <br>
-                    Tuesday, Dec. 17 8:30-17:00 <br>
-                    Wednesday, Dec. 18 8:30-13:30 <br><br>
+                    <b>Location</b> : Regency Foyer<br>
+
+                    <div class="container" style="width:100%">
+                        <div class="row">
+                            <div class="3u">
+                                
+                                <b>Time</b> :
+                                <br> Saturday, Dec. 14 14:30-18:00 <br>
+                                Sunday, Dec. 15 7:30-17:00 <br>
+                                Monday, Dec. 16 8:00-17:00 <br>
+                                Tuesday, Dec. 17 8:30-17:00 <br>
+                                Wednesday, Dec. 18 8:30-13:30 <br><br>
+                            </div>
+                            <div class="3u">
+                                <div class="grow">
+                                    <a href="images/Ballroom Level.jpg" target="_blank">
+                                        <img width=81% height=81% src="images/Ballroom Level.jpg">
+                                    </a>
+                                </div>
+                                <div class="image-caption">Ballroom Level</div>
+                            </div>
+
+                            <div class="3u">
+                                <div class="grow">
+                                    <a href="images/2nd Floor Conference Level.jpg" target="_blank">
+                                        <img width=93% height=93% src="images/2nd Floor Conference Level.jpg">
+                                    </a>
+                                </div>
+                                <div class="image-caption">2nd Floor Conference Level</div>
+                            </div>
+
+                            <div class="3u">
+                                <div class="grow">
+                                    <a href="images/Lobby Level.jpg" target="_blank">
+                                        <img width=100% height=100% src="images/Lobby Level.jpg">
+                                    </a>
+                                </div>
+                                <div class="image-caption">Lobby Level</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <br>
 
                     <h3>Day 1: Sunday, December 15</h3>
                     <h4>Lobby(Day 1)</h4>
                     <table>
                         <colgroup>
-                            <col style="width: 10%;">
+                            <col style="width: 120px;">
                             <col style="width: 20%;">
                             <col style="width: 20%;">
                             <col style="width: 15%;">
@@ -205,7 +261,7 @@
                     <h4>Ballroom(Day 1)</h4>
                     <table>
                         <colgroup>
-                            <col style="width: 15%;">
+                            <col style="width: 120px;">
                             <col style="width: 25%;">
                             <col style="width: 15%;">
                             <col style="width: 15%;">
@@ -315,12 +371,12 @@
                     <h4>2nd floor(Day 1)</h4>
                     <table>
                         <colgroup>
-                            <col width="10%">
-                            <col width="15%">
-                            <col width="15%">
-                            <col width="15%">
-                            <col width="15%">
-                            <col width="15%">
+                            <col width="120px;">
+                            <col width="20%">
+                            <col width="20%">
+                            <col width="20%">
+                            <col width="20%">
+                            <col width="20%">
                             <col width="15%">
                         </colgroup>
                         <tr>
@@ -407,6 +463,16 @@
                     <h3>Day 2: Monday, December 16</h3>
                     <h4>Lobby(Day 2)</h4>
                     <table>
+                        <colgroup>
+                            <col style="width: 120px;">
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                            <col style="width: 15%;">
+                            <col style="width: 15%;">
+                        </colgroup>
+                        
                         <tr>
                             <th id="sjs-A1"></td>
                             <th data-t="s" data-v="CONGRESSIONAL A" id="sjs-B1">CONGRESSIONAL A</td>
@@ -487,13 +553,14 @@
                     <h4>Ballroom(Day 2)</h4>
                     <table>
                         <colgroup>
-                            <col style="width: 10%;">
-                            <col style="width: 15%;">
-                            <col style="width: 15%;">
-                            <col style="width: 15%;">
-                            <col style="width: 15%;">
+                            <col style="width: 120px;">
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
                             <col style="width: 30%;">
                         </colgroup>
+
                         <tr>
                             <th id="sjs-A1"></td>
                             <th data-t="s" data-v="CONCORD" id="sjs-B1">CONCORD</td>
@@ -585,7 +652,7 @@
                     <h4>2nd floor(Day 2)</h4>
                     <table>
                         <colgroup>
-                            <col style="width: 10%;">
+                            <col style="width: 120px;">
                             <col style="width: 15%;">
                             <col style="width: 15%;">
                             <col style="width: 15%;">
@@ -636,7 +703,7 @@
                             <td rowspan="3" data-t="s" data-v="Special session: Privacy and Security of Big Data  " id="sjs-G3"
                                 xml:space="preserve" class="special_session"><strong>Special session:</strong><br>Privacy and Security of Big Data </td>
                             <td id="sjs-H3"></td>
-                        </tr>
+                            </tr>
                         <tr>
                             <td data-t="s" data-v="12:30-14:00" id="sjs-A4">12:30-14:00</td>
                             <td colspan="3" data-t="s" data-v="Lunch" id="sjs-B4"><strong>Lunch</strong></td>
@@ -654,8 +721,8 @@
                             <td data-t="s" data-v="Workshop #6: 10th Workshop on Methods to Improve Big Data Science Projects (MIDP-2024)"
                                 id="sjs-D5" class="workshop"><strong>Workshop #6:</strong><br>10th Workshop on Methods to Improve Big Data Science Projects (MIDP-2024)
                                 <br><a href=" http://www.midp-info.org/2024-workshop.html"><strong>Website</strong></a><br>
+                                <td id="sjs-H3"></td>
                             </td>
-                            <td id="sjs-H3"></td>
 
                         </tr>
                         <tr>
@@ -670,7 +737,7 @@
                     <h4>Lobby(Day 3)</h4>
                     <table>
                         <colgroup>
-                            <col width="150px">
+                            <col width="120px">
                             <col width="250px">
                             <col width="250px">
                             <col width="250px">
@@ -751,11 +818,11 @@
                     <h4>Ballroom(Day 3)</h4>
                     <table>
                         <colgroup>
-                            <col style="width: 15%">
-                            <col style="width: 10%">
-                            <col style="width: 10%">
-                            <col style="width: 10%">
-                            <col style="width: 10%">
+                            <col style="width: 120px">
+                            <col style="width: 30%">
+                            <col style="width: 20%">
+                            <col style="width: 20%">
+                            <col style="width: 20%">
                             <col style="width: 40%">
                         </colgroup>
                         <tr>
@@ -863,12 +930,12 @@
                     <h4>2nd floor(Day 3)</h4>
                     <table>
                         <colgroup>
-                            <col style="width: 8%">
-                            <col style="width: 15%">
-                            <col style="width: 10%">
-                            <col style="width: 15%">
-                            <col style="width: 15%">
-                            <col style="width: 15%">
+                            <col style="width: 120px">
+                            <col style="width: 30%">
+                            <col style="width: 20%">
+                            <col style="width: 30%">
+                            <col style="width: 30%">
+                            <col style="width: 30%">
                         </colgroup>
                         <tr>
                             <th id="sjs-A1"></td>
@@ -923,7 +990,7 @@
                     <h3>Day 4: Wednesday, December 18</h3>
                     <table>
                         <colgroup>
-                            <col style="width: 12%">
+                            <col style="width: 120px">
                             <col style="width: 10%">
                             <col style="width: 10%">
                             <col style="width: 10%">
